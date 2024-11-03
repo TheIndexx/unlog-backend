@@ -1,0 +1,13 @@
+boto3
+clerk-sdk-python
+fastapi
+Flask
+requests
+uvicorn
+chardet
+modal
+stripe
+tenacity
+svix
+python-dotenv
+python-multipart

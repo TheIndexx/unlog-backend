@@ -1,0 +1,10 @@
+.spreadsite
+data
+scripts
+spreadsitenextjs
+spread
+README.md
+.mypy_cache
+__pycache__
+*.pyc
+.vscode

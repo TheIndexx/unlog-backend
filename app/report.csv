@@ -1,0 +1,37 @@
+Executive Summary
+This report presents the top customers based on their subscription durations.
+
+Data Analysis
+CustomerId,FirstName,LastName,SubscriptionDate,SubscriptionDurationDays,ConfidenceLevel
+C2dE4dEEc489ae0,Sheryl,Meyers,2020-01-13,1357,High
+2A13F74EAa7DA6c,Makayla,Cannon,2020-01-20,1350,High
+CC68FD1D3Bbbf22,Riley,Good,2020-02-03,1336,High
+A3F76Be153Df4a3,Anita,Benson,2020-02-09,1330,High
+03A1E62ADdeb31c,Corey,Holt,2020-02-18,1321,High
+Ef859092FbEcC07,Richard,Roth,2020-02-23,1316,High
+2d08FB17EE273F4,Aimee,Downs,2020-02-25,1314,High
+2354a0E336A91A1,Clarence,Haynes,2020-03-11,1299,High
+6F94879bDAfE5a6,Roy,Berry,2020-03-25,1285,High
+5ef6d3eefdD43bE,Nina,Chavez,2020-03-26,1284,High
+
+Process Log
+2024-10-05 16:55:50,072 INFO: Script started.
+2024-10-05 16:55:50,082 INFO: Input data read successfully.
+2024-10-05 16:55:50,086 ERROR: Missing required columns: ['CustomerId', 'FirstName', 'LastName', 'SubscriptionDate']2024-10-05 16:59:09,098 INFO: Script started.
+2024-10-05 16:59:09,106 INFO: Input data read successfully.
+2024-10-05 16:59:09,129 INFO: Subscription durations calculated.
+2024-10-05 16:59:09,131 INFO: Removed 0 entries due to invalid dates.
+2024-10-05 16:59:09,135 INFO: Customers sorted by SubscriptionDurationDays.
+2024-10-05 16:59:09,135 INFO: Top 10 customers extracted.
+
+Key Findings
+Top customers have been subscribed the longest, indicating strong loyalty.
+
+Confidence Level Key
+Confidence levels are assigned based on the method of derivation. 'High' confidence indicates deterministic calculations.
+
+Final Analysis
+Final analysis could not be generated due to missing API key.
+
+Limitations and Future Work
+Analysis is limited to subscription duration due to data availability.

@@ -1,0 +1,13 @@
+.vercel
+app/node_modules/
+/uploads/
+/spreadsite/
+/__pycache__/
+app/node_modules/
+app/.env.local
+app/__pycache__/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
